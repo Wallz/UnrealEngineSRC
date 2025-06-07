@@ -1,0 +1,1 @@
+..\System\ut2003.exe dm-antalus?game=engine.gameinfo exec=..\Benchmark\Stuff\flybyexec.txt -benchmark -seconds=77 -nosound %1

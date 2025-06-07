@@ -1,0 +1,54 @@
+[DamTypeArtilleryShell]
+DeathString="%k ha llovido en el desfile de %o."
+FemaleSuicide="%o se las ha arreglado para matarse con su propia artillería." 
+MaleSuicide="%o se las ha arreglado para matarse con su propia artillería"
+
+[DamTypeONSCicadaLaser]
+DeathString="El bláster de %k ha atormentado a %o."
+FemaleSuicide="%o ha usado su bláster sobre sí misma."
+MaleSuicide="%o ha usado su bláster sobre sí mismo."
+
+[DamTypeONSCicadaRocket]
+DeathString="%k ha volado en pedazos a %o."
+FemaleSuicide="%o se ha volado a sí misma."
+MaleSuicide="%o se ha volado a sí mismo."
+
+[DamTypeShockTankProximityExplosion]
+DeathString="%o se ha acercado demasiado al Paladin de %k."
+
+[DamTypeShockTankShockBall]
+DeathString="%o no pudo esquivar el ataque del Paladin de %k."
+
+[ONSDualAttackCraft]
+LockedMsg=" Fijado "
+VehiclePositionString="en un Cicada"
+VehicleNameString="Cicada"
+
+[MutVehiclePickups]
+FriendlyName="Recogidas en vehículos"
+Description="Los vehículos recogen objetos y se los entregan al conductor"
+
+[ONSArtillery]
+VehiclePositionString="en un SPMA"
+VehicleNameString="SPMA"
+
+[ONSArtilleryCannonPawn]
+VehiclePositionString="en el cañón trasero de un SPMA"
+VehicleNameString="Cañón trasero de SPMA"
+
+[ONSArtillerySideGunPawn]
+VehiclePositionString="en la torreta lateral de un SPMA"
+VehicleNameString="Torreta lateral de SPMA"
+
+[ONSDualACGatlingGunPawn]
+VehiclePositionString="en una torreta de Cicada"
+VehicleNameString="Torreta láser de Cicada"
+
+[ONSMobileTurret]
+VehiclePositionString="en un Centaur"
+VehicleNameString="Centaur"
+
+[ONSShockTank]
+VehiclePositionString="En un Paladin"
+VehicleNameString="Paladin"
+

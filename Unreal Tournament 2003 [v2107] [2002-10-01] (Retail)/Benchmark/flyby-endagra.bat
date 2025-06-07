@@ -1,0 +1,1 @@
+..\System\ut2003.exe br-endagra?game=engine.gameinfo exec=..\Benchmark\Stuff\flybyexec.txt -benchmark -seconds=70 -nosound %1

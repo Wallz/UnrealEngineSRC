@@ -1,0 +1,45 @@
+[LevelInfo0]
+Title="Curse3"
+
+[LevelSummary]
+Title="Curse3"
+
+[ZoneInfo0]
+LocationName="Lightning Gun"
+
+[ZoneInfo1]
+LocationName="Catwalks"
+
+[ZoneInfo10]
+LocationName="Lightning Gun"
+
+[ZoneInfo11]
+LocationName="Main Lift"
+
+[ZoneInfo12]
+LocationName="BioRifle"
+
+[ZoneInfo2]
+LocationName="Lower Halls"
+
+[ZoneInfo3]
+LocationName="Minigun"
+
+[ZoneInfo4]
+LocationName="Flak"
+
+[ZoneInfo5]
+LocationName="Rear Lift"
+
+[ZoneInfo6]
+LocationName="Rocket Launcher"
+
+[ZoneInfo7]
+LocationName="Double Damage"
+
+[ZoneInfo8]
+LocationName="Minigun"
+
+[ZoneInfo9]
+LocationName="Shock Rifle"
+

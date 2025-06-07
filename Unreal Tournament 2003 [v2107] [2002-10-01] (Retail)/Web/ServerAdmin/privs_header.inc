@@ -1,0 +1,1 @@
+<table width="100%" bgcolor=#58677C><tr><td><%Text%></td></tr></table>

@@ -1,0 +1,1 @@
+..\System\ut2003.exe ctf-face3?game=engine.gameinfo exec=..\Benchmark\Stuff\flybyexec.txt -benchmark -seconds=116 -nosound %1

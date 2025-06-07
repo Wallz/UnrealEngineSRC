@@ -1,0 +1,377 @@
+FTE History 1
+F|0|27|C:\2\fte\config\global.fte
+F|42|32|C:\2\fte\config\m_c.fte
+F|70|22|C:\2\fte\config\m_c_kb.fte
+F|26|0|C:\2\fte\config\m_fte.fte
+F|0|0|C:\2\fte\config\m_plain.fte
+F|0|0|C:\2\fte\config\main.fte
+F|0|0|C:\2\UT2-Code\ALAudio\Inc\ALAudio.h
+F|59|0|C:\2\UT2-Code\ALAudio\Inc\ALAudioCapture.h
+F|136|6|C:\2\UT2-Code\ALAudio\Inc\ALAudioStream.h
+F|26|20|C:\2\UT2-Code\ALAudio\Inc\ALAudioSubsystem.h
+F|28|0|C:\2\UT2-Code\ALAudio\Inc\ALAudioVoice.h
+F|48|21|C:\2\UT2-Code\ALAudio\Inc\ALFuncs.h
+F|21|0|C:\2\UT2-Code\ALAudio\Src\ALAudio.cpp
+F|40|0|C:\2\UT2-Code\ALAudio\Src\ALAudio.vcproj
+F|30|6|C:\2\UT2-Code\ALAudio\Src\ALAudioCapture.cpp
+F|359|0|C:\2\UT2-Code\ALAudio\Src\ALAudioEAXTools.cpp
+F|27|0|C:\2\UT2-Code\ALAudio\Src\ALAudioPrivate.h
+F|504|0|C:\2\UT2-Code\ALAudio\Src\ALAudioStream.cpp
+F|530|0|C:\2\UT2-Code\ALAudio\Src\ALAudioSubsystem.cpp
+F|529|0|C:\2\UT2-Code\ALAudio\Src\ALAudioVoice.cpp
+F|40|15|C:\2\UT2-Code\ALAudio\Src\makefile
+F|0|0|C:\2\UT2-Code\Core\Classes\Object.uc
+F|120|0|C:\2\UT2-Code\Core\Inc\Core.h
+F|0|0|C:\2\UT2-Code\Core\Inc\FFeedbackContextWindows.h
+F|41|33|C:\2\UT2-Code\Core\Inc\FMallocAnsi.h
+F|115|0|C:\2\UT2-Code\Core\Inc\FMallocDebug.h
+F|174|8|C:\2\UT2-Code\Core\Inc\FOutputDeviceFile.h
+F|0|0|C:\2\UT2-Code\Core\Inc\FOutputDeviceStdout.h
+F|15|20|C:\2\UT2-Code\Core\Inc\UFactory.h
+F|23|0|C:\2\UT2-Code\Core\Inc\UnClass.h
+F|194|35|C:\2\UT2-Code\Core\Inc\UnFile.h
+F|40|0|C:\2\UT2-Code\Core\Inc\UnForcePacking_begin.h
+F|153|3|C:\2\UT2-Code\Core\Inc\UnGCNEmu.h
+F|120|0|C:\2\UT2-Code\Core\Inc\UnName.h
+F|399|69|C:\2\UT2-Code\Core\Inc\UnObjBas.h
+F|150|0|C:\2\UT2-Code\Core\Inc\UnScript.h
+F|1478|12|C:\2\UT2-Code\Core\Inc\UnTemplate.h
+F|151|0|C:\2\UT2-Code\Core\Inc\UnVcWin32.h
+F|284|0|C:\2\UT2-Code\Core\Src\Core.cpp
+F|0|0|C:\2\UT2-Code\Core\Src\Core\Src\UnObj.cpp
+F|43|0|C:\2\UT2-Code\Core\Src\makefile
+F|286|2|C:\2\UT2-Code\Core\Src\UnAnsi.cpp
+F|457|17|C:\2\UT2-Code\Core\Src\UnCache.cpp
+F|949|0|C:\2\UT2-Code\Core\Src\UnClass.cpp
+F|540|0|C:\2\UT2-Code\Core\Src\UnCorSc.cpp
+F|864|0|C:\2\UT2-Code\Core\Src\UnLinker.cpp
+F|15|16|C:\2\UT2-Code\Core\Src\UnMisc.cpp
+F|85|0|C:\2\UT2-Code\Core\Src\UnName.cpp
+F|2135|0|C:\2\UT2-Code\Core\Src\UnObj.cpp
+F|289|14|C:\2\UT2-Code\Core\Src\UnProp.cpp
+F|1088|47|C:\2\UT2-Code\Core\Src\UnUnix.cpp
+F|257|52|C:\2\UT2-Code\Core\Src\UnVcWin32.cpp
+F|42|0|C:\2\UT2-Code\D3D9Drv\Src\D3D9Drv.h
+F|41|19|C:\2\UT2-Code\D3D9Drv\Src\D3D9Drv.vcproj
+F|1706|0|C:\2\UT2-Code\D3D9Drv\Src\D3D9RenderDevice.cpp
+F|33|0|C:\2\UT2-Code\D3D9Drv\Src\makefile
+F|65|0|C:\2\UT2-Code\Engine\Inc\Engine.h
+F|337|35|C:\2\UT2-Code\Engine\Inc\UnCamera.h
+F|967|0|C:\2\UT2-Code\Engine\Inc\UnEngineWin.h
+F|214|4|C:\2\UT2-Code\Engine\Inc\UnStaticMesh.h
+F|23|0|C:\2\UT2-Code\Engine\Src\EnginePrivate.h
+F|5|36|C:\2\UT2-Code\Engine\Src\KIntersectFunctions.cpp
+F|0|0|C:\2\UT2-Code\Engine\Src\KIntersectFunctions.h
+F|76|3|C:\2\UT2-Code\Engine\Src\KPhysic.cpp
+F|0|0|C:\2\UT2-Code\Engine\Src\KScript.cpp
+F|34|1|C:\2\UT2-Code\Engine\Src\makefile
+F|0|0|C:\2\UT2-Code\Engine\Src\makefile-h
+F|846|61|C:\2\UT2-Code\Engine\Src\UnAudio.cpp
+F|14|0|C:\2\UT2-Code\Engine\Src\UnCDKey.cpp
+F|10|0|C:\2\UT2-Code\Engine\Src\UnRenderLight.cpp
+F|341|58|C:\2\UT2-Code\Engine\Src\UnStaticMeshBuild.cpp
+F|3251|0|C:\2\UT2-Code\Engine\Src\UnTerrain.cpp
+F|224|0|C:\2\UT2-Code\Engine\Src\xForceFeedback.cpp
+F|0|0|C:\2\UT2-Code\Fire\Src\Fire.vcproj
+F|67|0|C:\2\UT2-Code\IpDrv\Classes\InternetLink.uc
+F|67|10|C:\2\UT2-Code\IpDrv\Inc\HTTPDownload.h
+F|69|0|C:\2\UT2-Code\IpDrv\Inc\IpDrvClasses.h
+F|0|4|C:\2\UT2-Code\IpDrv\Inc\UnSocket.h
+F|18|19|C:\2\UT2-Code\IpDrv\Src\HTTPDownload.cpp
+F|50|0|C:\2\UT2-Code\IpDrv\Src\InternetLink.cpp
+F|41|19|C:\2\UT2-Code\IpDrv\Src\IpDrv.vcproj
+F|35|0|C:\2\UT2-Code\IpDrv\Src\makefile
+F|345|0|C:\2\UT2-Code\karma121eCD\karma121e\build\internal\makefile
+F|0|0|C:\2\UT2-Code\karma121eCD\karma121e\build\makerules\Make.defs.win32
+F|3|0|C:\2\UT2-Code\karma121eCD\karma121e\build\makerules\makefile.rules.win32
+F|45|0|C:\2\UT2-Code\karma121eCD\karma121e\build\makerules\vcvars32.sh
+F|26|14|C:\2\UT2-Code\Launch\Src\Launch.cpp
+F|25|0|C:\2\UT2-Code\Launch\Src\LaunchPrivate.h
+F|64|20|C:\2\UT2-Code\Launch\Src\makefile
+F|129|4|C:\2\UT2-Code\makefile
+F|40|0|C:\2\UT2-Code\makefile-general
+F|0|0|C:\2\UT2-Code\makefile-general~
+F|0|46|C:\2\UT2-Code\makefile-header
+F|35|0|C:\2\UT2-Code\Onslaught\Onslaught.vcproj
+F|40|0|C:\2\UT2-Code\Onslaught\Src\makefile
+F|241|0|C:\2\UT2-Code\Onslaught\Src\ONSVehicle.cpp
+F|35|43|C:\2\UT2-Code\OpenGLDrv\Src\makefile
+F|41|0|C:\2\UT2-Code\OpenGLDrv\Src\OpenGLDrv.vcproj
+F|0|0|C:\2\UT2-Code\OpenGLDrv\Src\OpenGLDrv\Src
+F|0|0|C:\2\UT2-Code\OpenGLDrv\Src\OpenGLDrv\Src\makefile
+F|0|74|C:\2\UT2-Code\README-win64build.txt
+F|152|27|C:\2\UT2-Code\SDLDrv\Inc\SDLDrv.h
+F|398|37|C:\2\UT2-Code\SDLDrv\Src\SDLViewport.cpp
+F|0|0|C:\2\UT2-Code\System\Core\Inc\UnFile.h
+F|0|0|C:\2\UT2-Code\System\Core\Src\UnObj.cpp
+F|21|0|C:\2\UT2-Code\System\UT2004.ini
+F|95|0|C:\2\UT2-Code\UCC\Src\makefile
+F|140|0|C:\2\UT2-Code\UCC\Src\UCC.cpp
+F|68|1|C:\2\UT2-Code\UWeb\Inc\UWeb.h
+F|0|0|C:\2\UT2-Code\UWeb\Inc\UWebNative.h
+F|30|43|C:\2\UT2-Code\UWeb\Src\makefile
+F|34|0|C:\2\UT2-Code\UWeb\Src\UWeb.vcproj
+F|236|0|C:\2\UT2-Code\UWeb\Src\WebServer.cpp
+F|29|0|C:\2\UT2-Code\Vorbis\ogg\src\makefile
+F|0|0|C:\2\UT2-Code\Vorbis\ogg\src\ogg.exp
+F|49|0|C:\2\UT2-Code\Vorbis\ogg\win32\ogg.def
+F|30|0|C:\2\UT2-Code\Vorbis\vorbis\lib\makefile
+F|17|2|C:\2\UT2-Code\Vorbis\vorbis\lib\vorbisfile.c
+F|3|0|C:\2\UT2-Code\Vorbis\vorbis\win32\vorbis.def
+F|0|0|C:\2\UT2-Code\Vorbis\vorbis\win32\vorbisall.def
+F|7|0|C:\2\UT2-Code\Vorbis\vorbis\win32\vorbisfile.def
+F|65|0|C:\2\UT2-Code\Vorbis\vorbis\win32\vorbiswin64.def
+F|84|0|C:\2\UT2-Code\Window\Inc\Window.h
+F|2183|57|C:\2\UT2-Code\Window\Src\Controls.cpp
+F|36|34|C:\2\UT2-Code\Window\Src\makefile
+F|2605|42|C:\2\UT2-Code\Window\Src\Properties.cpp
+F|2171|62|C:\2\UT2-Code\Window\Src\Window.cpp
+F|41|19|C:\2\UT2-Code\Window\Src\Window.vcproj
+F|0|0|C:\2\UT2-Code\WinDrv\Inc\WinDivX.h
+F|203|27|C:\2\UT2-Code\WinDrv\Inc\WinDrv.h
+F|0|0|C:\2\UT2-Code\WinDrv\Inc\WinSpeech.h
+F|29|53|C:\2\UT2-Code\WinDrv\Src\makefile
+F|277|23|C:\2\UT2-Code\WinDrv\Src\WinClient.cpp
+F|41|19|C:\2\UT2-Code\WinDrv\Src\WinDrv.vcproj
+F|1287|32|C:\2\UT2-Code\WinDrv\Src\WinViewport.cpp
+F|0|45|C:\2\UT2-Code\x
+F|0|88|C:\2\UT2-Code\x.bat
+F|0|0|C:\2\UT2-Code\x.bin
+F|0|0|C:\2\UT2-Code\x.txt
+F|37|0|C:\2\UT2-Code\XGame\Src\makefile
+F|34|19|C:\2\UT2-Code\XGame\XGame.vcproj
+F|47|0|C:\2\UT2-Code\XInterface\Inc\XInterface.h
+F|6|0|C:\2\UT2-Code\XInterface\Inc\XInterfaceClasses.h
+F|28|48|C:\2\UT2-Code\XInterface\Src\makefile
+F|1717|0|C:\2\UT2-Code\XInterface\Src\UnGUICore.cpp
+F|365|0|C:\2\UT2-Code\XInterface\Src\XInterface.cpp
+F|35|16|C:\2\UT2-Code\XInterface\XInterface.vcproj
+F|0|196|C:\2\UT2-Code\y.bat
+F|46|0|C:\2\UT2-Code\zlib\deflate.c
+F|31|0|C:\2\UT2-Code\zlib\deflate.h
+F|0|0|C:\2\UT2-Code\zlib\Make_vms.com
+F|29|0|C:\2\UT2-Code\zlib\makefile
+F|6|0|C:\2\UT2-Code\zlib\nt\zlib.dnt
+F|123|0|C:\2\UT2-Code\zlib\zconf.h
+F|0|0|C:\2\UT2-Code\zlib\zlib.h
+F|168|30|C:\2\UT2-Code\zlib\zlib.vcproj
+F|0|0|C:\2\UT2-Code\zlib\zlib\zlibexports.def
+F|13|0|C:\2\UT2-Code\zlib\zlibexports.def
+F|20|0|C:\2\UT2-Code\zlib\zutil.h
+F|0|0|C:\2\x.bat
+F|74|0|C:\Program Files\Microsoft SDK\include\Win64\crt\amd64\float.h
+F|8|0|C:\Program Files\Microsoft SDK\SetEnv.Bat
+F|0|0|C:\projects\UT2-Code\$_
+F|354|12|C:\projects\UT2-Code\ALAudio\Src\ALAudioCapture.cpp
+F|31|63|C:\projects\UT2-Code\ALAudio\Src\makefile
+F|0|0|C:\projects\UT2-Code\ALAudio\Src\makefile~
+F|87|0|C:\projects\UT2-Code\Core\Classes\Commandlet.uc
+F|198|7|C:\projects\UT2-Code\Core\Classes\Object.uc
+F|263|41|C:\projects\UT2-Code\Core\Inc\FConfigCacheIni.h
+F|40|18|C:\projects\UT2-Code\Core\Inc\FMallocAnsi.h
+F|30|0|C:\projects\UT2-Code\Core\Inc\UnClass.h
+F|69|0|C:\projects\UT2-Code\Core\Inc\UnCorObj.h
+F|201|44|C:\projects\UT2-Code\Core\Inc\UnFile.h
+F|336|0|C:\projects\UT2-Code\Core\Inc\UnObjBas.h
+F|1773|0|C:\projects\UT2-Code\Core\Inc\UnTemplate.h
+F|0|0|C:\projects\UT2-Code\Core\Src\Core.cpp
+F|953|7|C:\projects\UT2-Code\Core\Src\UnClass.cpp
+F|370|0|C:\projects\UT2-Code\Core\Src\UnCorSc.cpp
+F|2418|0|C:\projects\UT2-Code\Core\Src\UnMisc.cpp
+F|5353|0|C:\projects\UT2-Code\Core\Src\UnObj.cpp
+F|443|0|C:\projects\UT2-Code\Core\Src\UnProp.cpp
+F|1587|0|C:\projects\UT2-Code\Core\Src\UnUnix.cpp
+F|119|0|C:\projects\UT2-Code\Engine\Classes\Actor.uc
+F|1697|29|C:\projects\UT2-Code\Engine\Inc\EngineClasses.h
+F|17|0|C:\projects\UT2-Code\IpDrv\Classes\BufferedTCPLink.uc
+F|0|0|C:\projects\UT2-Code\IpDrv\Classes\InternetLink.uc
+F|0|0|C:\projects\UT2-Code\IpDrv\Classes\IpDrv.upkg
+F|0|0|C:\projects\UT2-Code\IpDrv\Classes\LANQueryClient.uc
+F|85|0|C:\projects\UT2-Code\IpDrv\Classes\MasterServerClient.uc
+F|0|0|C:\projects\UT2-Code\IpDrv\Classes\MasterServerGameStats.uc
+F|15|0|C:\projects\UT2-Code\IpDrv\Classes\MasterServerLink.uc
+F|105|0|C:\projects\UT2-Code\IpDrv\Classes\MasterServerUplink.uc
+F|11|0|C:\projects\UT2-Code\IpDrv\Classes\ServerQueryClient.uc
+F|0|0|C:\projects\UT2-Code\IpDrv\Classes\TcpLink.uc
+F|28|0|C:\projects\UT2-Code\IpDrv\Classes\UdpGamespyQuery.uc
+F|28|0|C:\projects\UT2-Code\IpDrv\Classes\UdpGamespyUplink.uc
+F|19|0|C:\projects\UT2-Code\IpDrv\Classes\UdpLink.uc
+F|138|0|C:\projects\UT2-Code\IpDrv\Inc\IpDrvClasses.h
+F|34|0|C:\projects\UT2-Code\IpDrv\Inc\UnIpDrv.h
+F|13|0|C:\projects\UT2-Code\IpDrv\Inc\UnIpDrvCommandlets.h
+F|25|0|C:\projects\UT2-Code\IpDrv\Inc\UnSocket.h
+F|53|4|C:\projects\UT2-Code\IpDrv\Inc\UnTcpNetDriver.h
+F|0|0|C:\projects\UT2-Code\IpDrv\Src\MasterServerUplink.cpp
+F|426|0|C:\projects\UT2-Code\IpDrv\Src\TcpNetDriver.cpp
+F|0|0|C:\projects\UT2-Code\IpDrv\Src\UCompressCommandlet.cpp
+F|318|14|C:\projects\UT2-Code\Launch\Src\Launch.cpp
+F|36|0|C:\projects\UT2-Code\Launch\Src\makefile
+F|76|77|C:\projects\UT2-Code\makefile
+F|11|29|C:\projects\UT2-Code\makefile-header
+F|341|0|C:\projects\UT2-Code\Speex\Inc\speex.h
+F|56|0|C:\projects\UT2-Code\Speex\Inc\speex_bits.h
+F|97|0|C:\projects\UT2-Code\Speex\Inc\speex_preprocess.h
+F|0|0|C:\projects\UT2-Code\Speex\Src\libspeex\makefile
+F|0|0|C:\projects\UT2-Code\Speex\Src\libspeex\speex.def
+F|0|0|C:\projects\UT2-Code\Speex\Src\Speex.spec.in
+F|302|0|C:\projects\UT2-Code\Speex\Src\win32\libspeex\libspeex.dsp
+F|0|0|C:\projects\UT2-Code\Speex\Src\win32\libspeex\libspeex.dsw
+F|125|0|C:\projects\UT2-Code\Speex\Src\win32\libspeex\libspeex.plg
+F|0|0|C:\projects\UT2-Code\Speex\Src\win32\libspeex\Makefile.am
+F|17|21|C:\projects\UT2-Code\System\test.cpp
+F|0|0|C:\projects\UT2-Code\System\ucc.log
+F|20|1|C:\projects\UT2-Code\System\UT2004.ini
+F|0|0|C:\projects\UT2-Code\System\ut2004.log
+F|151|0|C:\projects\UT2-Code\UCC\Src\UCC.cpp
+F|644|0|C:\projects\UT2-Code\UTV2004\Src\ReplicatorEngine.cpp
+F|169|13|C:\projects\UT2-Code\UTV2004\Src\UTVPackageMap.cpp
+F|62|0|C:\projects\UT2-Code\UWeb\Classes\HelloWeb.uc
+F|0|0|C:\projects\UT2-Code\UWeb\Classes\ImageServer.uc
+F|0|0|C:\projects\UT2-Code\UWeb\Classes\UWeb.upkg
+F|0|0|C:\projects\UT2-Code\UWeb\Classes\WebApplication.uc
+F|21|0|C:\projects\UT2-Code\UWeb\Classes\WebConnection.uc
+F|16|0|C:\projects\UT2-Code\UWeb\Classes\WebRequest.uc
+F|10|0|C:\projects\UT2-Code\UWeb\Classes\WebResponse.uc
+F|0|0|C:\projects\UT2-Code\UWeb\Classes\WebServer.uc
+F|98|4|C:\projects\UT2-Code\UWeb\Inc\UWeb.h
+F|0|0|C:\projects\UT2-Code\UWeb\Inc\UWebNative.h
+F|0|0|C:\projects\UT2-Code\UWeb\Src\UWeb.cpp
+F|0|0|C:\projects\UT2-Code\UWeb\Src\UWeb.vcproj
+F|0|0|C:\projects\UT2-Code\UWeb\Src\UWebNative.cpp
+F|283|30|C:\projects\UT2-Code\UWeb\Src\WebServer.cpp
+F|0|0|C:\projects\UT2-Code\Vorbis\vorbis\win32\vorbisfile.def
+F|317|0|C:\projects\UT2-Code\WinDrv\Inc\UnDebuggerCore.h
+F|0|0|C:\projects\UT2-Code\WinDrv\Inc\UnDelphiInterface.h
+F|47|21|C:\projects\UT2-Code\WinDrv\Src\makefile
+F|1527|0|C:\projects\UT2-Code\WinDrv\Src\UnDebuggerCore.cpp
+F|313|0|C:\projects\UT2-Code\WinDrv\Src\WinClient.cpp
+F|0|0|C:\projects\UT2-Code\zlib\zlibexports.def
+F|20|0|d:\WINDOWS\system32\drivers\etc\hosts
+I|1|C:\projects\UT2-Code\Launch\Src\
+I|1|C:\projects\UT2-Code\Launch\Src\
+I|6|grep -n MiniDump *
+I|1|C:\projects\UT2-Code\Launch\Src\
+I|6|grep -n MiniDump *
+I|2|ldflags
+I|7|i
+I|2|/dll
+I|1|C:\projects\UT2-Code\UWeb\Classes\
+I|6|p4 edit WebRequest.uc
+I|7|i
+I|2|multimap
+I|7|i
+I|2|farray
+I|1|C:\projects\UT2-Code\Core\Classes\
+I|6|p4 edit Object.uc
+I|6|p4 edit Object.uc
+I|7|i
+I|2|map
+I|1|C:\projects\UT2-Code\Engine\Classes\
+I|6|grep -n ActorRenderData *
+I|6|grep -n FActorRenderData *
+I|7|i
+I|2|renderdata
+I|7|i
+I|2|renderdata
+I|6|grep -n struct *
+I|1|C:\projects\UT2-Code\Engine\Inc\
+I|7|i
+I|2|class f
+I|7|i
+I|2|f
+I|7|i
+I|3|1
+I|3|1
+I|2|CreatePackage
+I|7|i
+I|1|C:\2\UT2-Code\Core\Src\
+I|2|Outer
+I|1|C:\2\UT2-Code\Engine\Src\
+I|6|rmdir -p
+I|1|C:\2\UT2-Code\XInterface\Src\UnGUICore.cpp
+I|2|#if 0
+I|2|#if RON_PLEASE_REMOVE_THIS
+I|7|a
+I|3|1
+I|2|sdllaunch
+I|7|i
+I|6|p4 edit makefile
+I|6|p4 edit makefile-header
+I|3|527
+I|1|C:\2\UT2-Code\Core\Src\
+I|1|C:\2\UT2-Code\makefile
+I|1|C:\2\UT2-Code\
+I|6|grep -n SPEEX *
+I|6|grep -n SPEEX *
+I|1|C:\2\UT2-Code\ALAudio\Src\
+I|6|grep -n SPEEX *
+I|6|grep -n SPEEX *
+I|6|p4 edit ALAudioSubsystem.h
+I|6|grep -nri speex * 
+I|6|p4 edit ALAudioVoice.h
+I|1|C:\2\UT2-Code\ALAudio\Src\
+I|6|p4 edit ALAudioCapture.h
+I|6|p4 edit ALAudio.h
+I|6|grep -nri speex * 
+I|6|p4 edit makefile
+I|1|C:\2\UT2-Code\ALAudio\Src\
+I|2|precomp
+I|3|174
+I|6|p4 edit ALAudioSubsystem.cpp
+I|3|447
+I|3|717
+I|6|grep -ni mp3 *
+I|6|p4 edit ALAudioStream.h
+I|6|p4 edit ALAudioStream.cpp
+I|1|C:\2\UT2-Code\ALAudio\Src\
+I|2|mp3
+I|7|i
+I|6|p4 edit ALAudioStream.cpp
+I|2|mp3
+I|7|i
+I|1|C:\2\UT2-Code\ALAudio\Src\
+I|2|mp3
+I|7|i
+I|6|p4 edit ALAudioStream.h
+I|1|C:\2\UT2-Code\Core\Inc\
+I|1|C:\2\UT2-Code\Core\Inc\
+I|6|p4 edit UnAnsi.cpp
+I|1|C:\2\UT2-Code\Core\Src\UnMisc.cpp
+I|2|farra
+I|7|i
+I|6|p4 edit UnMisc.cpp
+I|1|C:\2\UT2-Code\Core\Src\
+I|2|::setviewport
+I|7|i
+I|3|477
+I|6|grep -n ::Stop *
+I|3|490
+I|1|C:\2\UT2-Code\ALAudio\Src\
+I|6|grep -n Sources *
+I|6|grep -n Sources *
+I|2|soundsource
+I|7|i
+I|6|grep -n Sources *
+I|6|grep -n Sources *
+I|6|grep -n Sources * |grep -i add
+I|1|C:\2\UT2-Code\ALAudio\Src\
+I|6|grep -ni al.h *
+I|6|grep -ni al.h *
+I|6|grep -ni al.h *
+I|6|grep -ni al.h *
+I|6|grep -nir al.h *
+I|6|grep -nir include *
+I|2|gensource
+I|7|i
+I|2|speech
+I|1|C:\projects\UT2-Code\WinDrv\Src\
+I|2|fbre
+I|7|i
+I|1|C:\projects\UT2-Code\IpDrv\Inc\
+I|6|grep -ni SocketData *
+I|6|grep -ni winsock.h *
+I|6|grep -ni winsock.h *
+I|2|catch_sig
+I|7|i
+I|1|C:\projects\UT2-Code\UCC\Src\
+I|1|C:\projects\UT2-Code\Core\Src\

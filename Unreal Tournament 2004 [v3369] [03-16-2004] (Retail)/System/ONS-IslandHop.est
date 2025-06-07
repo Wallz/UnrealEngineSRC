@@ -1,0 +1,97 @@
+[LevelInfo0]
+Title="Isla Brinco"
+
+[LevelSummary]
+Title="Isla Brinco"
+Description="Este archipiélago volcánico sirvió una vez como portal en las guerras de los humanos en el siglo 21. Ahora ha sido transformado para su uso en el torneo y una serie de puentes conectan las islas. Estos puentes, aunque excelentes para el uso de vehículos terrestres, no proporcionan una ruta directa a la batalla. Los Mantas son el medio de transporte principal."
+
+[Volume0]
+LocationName="Isla sudeste"
+
+[Volume1]
+LocationName="Isla sudeste"
+
+[Volume11]
+LocationName="Isla oeste"
+
+[Volume12]
+LocationName="Isla noroeste"
+
+[Volume14]
+LocationName="Isla noroeste"
+
+[Volume15]
+LocationName="Isla nordeste"
+
+[Volume16]
+LocationName="Isla nordeste"
+
+[Volume17]
+LocationName="Isla nordeste"
+
+[Volume19]
+LocationName="Isla este"
+
+[Volume2]
+LocationName="Isla sudoeste"
+
+[Volume20]
+LocationName="Pequeña isla nordeste"
+
+[Volume22]
+LocationName="Isla este"
+
+[Volume23]
+LocationName="Isla sudeste"
+
+[Volume25]
+LocationName="Isla sudeste"
+
+[Volume26]
+LocationName="Volcán"
+
+[Volume5]
+LocationName="Isla oeste"
+
+[Volume9]
+LocationName="Pequeña isla sudoeste"
+
+[WaterVolume1]
+LocationName="Bajo el agua"
+
+[WaterVolume18]
+LocationName="Bajo el agua"
+
+[WaterVolume19]
+LocationName="Bajo el agua"
+
+[WaterVolume20]
+LocationName="Bajo el agua"
+
+[WaterVolume23]
+LocationName="Bajo el agua"
+
+[WaterVolume24]
+LocationName="Bajo el agua"
+
+[WaterVolume25]
+LocationName="Bajo el agua"
+
+[WaterVolume26]
+LocationName="Bajo el agua"
+
+[WaterVolume27]
+LocationName="Bajo el agua"
+
+[WaterVolume28]
+LocationName="Bajo el agua"
+
+[WaterVolume3]
+LocationName="Bajo el agua"
+
+[WaterVolume31]
+LocationName="Bajo el agua"
+
+[ZoneInfo1]
+LocationName="Exterior"
+

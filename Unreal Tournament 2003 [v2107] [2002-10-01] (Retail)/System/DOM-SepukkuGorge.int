@@ -1,0 +1,23 @@
+[LevelInfo0]
+Title="Sepukku Gorge"
+
+[LevelSummary]
+Title="Sepukku Gorge"
+
+[Volume0]
+LocationName="NearPointB"
+
+[Volume1]
+LocationName="NearPointA"
+
+[Volume2]
+LocationName="OnTheBridges"
+
+[Volume3]
+LocationName="RedCave"
+
+[Volume4]
+LocationName="BlueCave"
+
+[ZoneInfo0]
+LocationName="Outside"

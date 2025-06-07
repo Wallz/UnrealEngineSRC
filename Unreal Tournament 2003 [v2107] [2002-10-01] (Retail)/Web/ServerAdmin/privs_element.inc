@@ -1,0 +1,1 @@
+<td width='20px'>&nbsp;</td><td nowrap><input type=checkbox name="<%Tag%>" Value="1"<%Checked%>> <span class=location><%Text%></span></td>

@@ -1,0 +1,1 @@
+..\System\ut2003 dm-inferno?spectatoronly=true?numbots=12 -benchmark -seconds=77 -exec=..\Benchmark\Stuff\botmatchexec.txt %1

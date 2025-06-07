@@ -1,0 +1,68 @@
+[AdminIni]
+Msg_PlayerList="Player List:"
+Msg_FinishGameEditFirst="You must finish your Game Edit before restarting the map"
+Msg_FinishGameRestart="You must finish your Game Edit before changing or restarting the map"
+Msg_GameNoSupportBots="The current Game Type does not support Bots"
+Msg_StatsNoBots="Cannot control bots when Worlds Stats are enabled"
+Msg_NextMapNotFound="Next Map Not Found, Restarting Same Map"
+Msg_ChangingMapTo="Changing Map to %NextMap%"
+Msg_PlayerBanned="%Player% has been Banned from this server"
+Msg_SessionBanned="%Player% has been Banned for this match"
+Msg_PlayerKicked="%Player% has been kicked"
+Msg_NoBotGameFull="Cannot add a bot, Game is full"
+Msg_NoAddNamedBot="Can Only Add Named Bots once the Match has Started"
+Msg_NoBotsPlaying="No Bots are currently playing"
+Msg_SetBotNeedVal="This Command Requires a Numeric Value between 0 and 32"
+Msg_MutNeedGameEdit="You must use 'Game Edit' command before 'Mutators' commands"
+Msg_NoMutatorInUse="No Mutators in use"
+Msg_NoUnusedMuts="Found No Unused Mutators"
+Msg_AddedMutator="Added '%Mutator%' To Used Mutator List"
+Msg_ErrAddingMutator="Error Adding '%Mutator%'To Used Mutator List"
+Msg_RemovedMutator="Removed '%Mutator%' From Used Mutator List"
+Msg_ErrRemovingMutator="Error Removing '%Mutator%' From Used Mutator List"
+Msg_MapListNeedGameEdit="You must use 'Game Edit' command before 'MapList' command"
+Msg_MapRotationList="List of maps in rotation for %Game%"
+Msg_NoMapInRotation="No Maps in rotation list"
+Msg_NoMapsAdded="No Maps Added to the List"
+Msg_AddedMapToList="Added '%Map%' To Map Rotation List"
+Msg_NoMapsRemoved="No Maps Removed from the List"
+Msg_RemovedMapFromList="Removed '%Map%' From Map Rotation List"
+Msg_NoMapsFound="No Maps were Found"
+Msg_MapIsInRotation="Map '%Map%' Is In Map Rotation List"
+Msg_MapNotInRotation="Map '%Map%' Is Not In Map Rotation List"
+Msg_MustEndGameEdit="You must end your Game Edit first"
+Msg_EditingClass="Editing %Class%"
+Msg_EditFailed="Failed Starting To Edit"
+Msg_AlreadyEdited="Game Already being edited by Someone Else"
+Msg_NotEditing="You are not editing Game Settings, use 'Game Edit' first"
+Msg_EditingCompleted="Editing Completed"
+Msg_EditingCancelled="Editing Cancelled"
+Msg_UnknownParam="Unknown Parameter : %Value%"
+Msg_NoParamsFound="No Parameters found!"
+Msg_ParamModified="Modification SuccessFull"
+Msg_ParamNotModified="Could not Modify Parameter"
+
+[xExtraPrivs]
+LoadMsg="Extra Privileges Loaded"
+MainPrivs="X"
+SubPrivs="Xb|Xc|Xp"
+Tags=("Miscellaneous","Manage IP Policies","Use Console","Player List")
+
+[xGamePrivs]
+LoadMsg="Maps & Game Privileges Loaded"
+MainPrivs="M"
+SubPrivs="Mr|Mt|Mm|Ml|Ms|Mu|Mb"
+Tags=("Maps/Game Settings","Restart Map","Change Game Type","Change Map","Manages Map Rotation","Game Settings","Select Mutators","Add/Remove Bots")
+
+[xKickPrivs]
+LoadMsg="Kick and Ban Privileges Loaded"
+MainPrivs="K"
+SubPrivs="Kp|Kb|Ko"
+Tags=("Kick/Ban","Kick Players","Ban Players","Kick Bots")
+
+[xUserGroupPrivs]
+LoadMsg="Admins & Groups Management Loaded"
+MainPrivs="A|G"
+SubPrivs="Al|Aa|Ae|Ag|Am|Gl|Ga|Ge"
+Tags=("Users","List Admins","Add/Remove Admins","Edit Admins","Assign Groups","Make Managers","Groups","List Groups","Add/Remove Groups","Edit Groups")
+

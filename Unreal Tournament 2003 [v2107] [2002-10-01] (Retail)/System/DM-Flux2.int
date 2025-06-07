@@ -1,0 +1,27 @@
+[LevelInfo0]
+Title="Flux 2"
+
+[LevelSummary]
+Title="Flux 2"
+
+[Volume5]
+LocationName="BackAlley"
+
+[Volume6]
+LocationName="LongRampArea"
+
+[Volume7]
+LocationName="LongRampArea"
+
+[Volume8]
+LocationName="FrontArea"
+
+[Volume9]
+LocationName="WalkwayArea"
+
+[ZoneInfo0]
+LocationName="Inside"
+
+[ZoneInfo1]
+LocationName="Outside"
+

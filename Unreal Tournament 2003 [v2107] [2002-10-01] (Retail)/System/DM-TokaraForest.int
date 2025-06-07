@@ -1,0 +1,15 @@
+[LevelInfo0]
+Title="Tokara Forest"
+
+[LevelSummary]
+Title="Tokara Forest"
+
+[Volume0]
+LocationName="GroundLevel"
+
+[Volume1]
+LocationName="CrystalPlateau"
+
+[ZoneInfo0]
+LocationName="Forest"
+

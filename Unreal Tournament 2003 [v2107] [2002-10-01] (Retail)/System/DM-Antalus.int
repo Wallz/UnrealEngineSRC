@@ -1,0 +1,39 @@
+[Volume0]
+LocationName="Shockrifle Area"
+
+[Volume1]
+LocationName="Pond Area"
+
+[Volume2]
+LocationName="Flak Area"
+
+[Volume3]
+LocationName="Rocket Link Area"
+
+[Volume4]
+LocationName="Shield Link Mini Area"
+
+[Volume5]
+LocationName="Sniper Ridge"
+
+[Volume6]
+LocationName="Adrenaline Alley"
+
+[WaterVolume0]
+LocationName="under water"
+
+[ZoneInfo0]
+LocationName="SuperShieldCave"
+
+[ZoneInfo1]
+LocationName="Outside"
+
+[ZoneInfo2]
+LocationName="SuperShieldCave"
+
+[ZoneInfo3]
+LocationName="SuperShieldCave"
+
+[ZoneInfo4]
+LocationName="SuperShieldCave"
+

@@ -1,0 +1,142 @@
+#=============================================================================
+# makefile-general: General-purpose rules for Unreal makefiles.
+#
+# Makefiles should define the following variables before including this file:
+# 	Directories:
+# 		SRC_DIRS	= Source code directories.
+# 		BUILD_DIR	= Intermediate file directory.
+# 	Compiler/linker options:
+# 		CXX			= C++ compiler.
+# 		CXXFLAGS	= C++ compiler options.
+# 		LDFLAGS		= Linker options.
+# 		LIBS		= Libraries.
+# 	Files:
+# 		OBJS		= Object files.
+# 		OUT			= Output file. (Full path.)
+#=============================================================================
+
+# Disable implicit suffix rules.
+.SUFFIXES:
+
+# Search paths.
+vpath
+vpath %.cpp	$(SRC_DIRS)
+vpath %.o	$(BUILD_DIR)
+vpath %.d	$(BUILD_DIR)
+
+# Add build path to object filenames.
+BUILD_OBJS			= $(OBJS:%.o=$(BUILD_DIR)/%.o)
+
+# Dependencies are updated automatically, so only include them when necessary.
+USE_DEPENDENCIES = unknown
+ifeq ($(USE_DEPENDENCIES),unknown)
+.DEFAULT: usedeps
+.PHONY: usedeps
+usedeps: dirs
+	@$(MAKE) $(EXTRAS) USE_DEPENDENCIES=yes --no-print-directory
+.PHONY: nodeps
+nodeps: dirs
+	@$(MAKE) $(EXTRAS) USE_DEPENDENCIES=no --no-print-directory
+else
+
+#-----------------------------------------------------------------------------
+# Rules.
+#-----------------------------------------------------------------------------
+
+# Build a shared library.
+ifeq ($(LINKSTYLE),shared)
+$(OUT): $(BUILD_OBJS)
+	$(CXX) -o $@ $(LDFLAGS) $^ $(LIBS)
+endif
+
+# Build a static executable.
+ifeq ($(LINKSTYLE),static)
+ ifeq ($(EXECUTABLE),1)
+  ifeq ($(TARGETTYPE),linux)
+   $(OUT): $(BUILD_OBJS)
+	$(CXX) -o $@ $(LDFLAGS) $^ $(LIBS)
+  endif
+  ifeq ($(TARGETTYPE),psx2)
+    $(OUT): crt0.o app.cmd $(BUILD_OBJS) $(UNREAL_STATIC_LIBS)
+		$(CXX) -o $@ -T $(LCFILE) $(BUILD_DIR)/$(OBJS) $(LIBS) $(LDFLAGS)
+#		copy $@ unstripped.elf
+#		$(STRIP) $@
+  endif
+ endif
+endif
+
+# Build a static library.
+ifeq ($(LINKSTYLE),static)
+ ifneq ($(EXECUTABLE),1)
+  $(OUT): $(BUILD_OBJS)
+	$(STD_AR) rcs $(OUT) $(BUILD_OBJS)
+ endif
+endif
+
+# Build a PSX2 core.
+crt0.o: $(PSX2_LIB)/crt0.s
+	$(AS) $(ASFLAGS) -o $@ $< > $(BUILD_DIR)/crt0.lst
+
+# Compile a C++ file.
+ifeq ($(ERRORFORMAT),visualc)
+$(BUILD_DIR)/%.o: %.cpp
+	if ! $(CXX) -c $(CXXFLAGS) -o $@ $< > $(BUILD_DIR)/$*.lst 2> $(BUILD_DIR)/$*.err; then sed -e 's/^'$*'.cpp:\([0-9]*\):\ \(.*\)/'`pwd | sed -e 's/.cygdrive.\([a-z]\)\(.*\)/\\1:\\2\\/'$*.cpp'/g' | sed -e 's/\\\//\\\\\\''\\\\\\/g'`'(\1) : \2/g' < $(BUILD_DIR)/$*.err; exit 1; fi
+$(BUILD_DIR)/%.o: %.c
+	if ! $(CXX) -c $(CXXFLAGS) -o $@ $< > $(BUILD_DIR)/$*.lst 2> $(BUILD_DIR)/$*.err; then sed -e 's/^'$*'.c:\([0-9]*\):\ \(.*\)/'`pwd | sed -e 's/.cygdrive.\([a-z]\)\(.*\)/\\1:\\2\\/'$*.c'/g' | sed -e 's/\\\//\\\\\\''\\\\\\/g'`'(\1) : \2/g' < $(BUILD_DIR)/$*.err; exit 1; fi
+else
+$(BUILD_DIR)/%.o: %.cpp
+	$(CXX) -c $(CXXFLAGS) -o $@ $< > $(BUILD_DIR)/$*.lst
+$(BUILD_DIR)/%.o: %.c
+	$(CXX) -c $(CXXFLAGS) -o $@ $< > $(BUILD_DIR)/$*.lst
+endif
+
+# Compile a DSM file.
+$(BUILD_DIR)/%.o: %.dsm $(DSM_DEPENDENCIES)
+	$(STD_DVPASM) $(STD_DVPASMFLAGS) -o $@ $< > $(BUILD_DIR)/$*.lst
+
+#Compile a vsm file from a vcl file.
+%.vsm: %.vcl
+	$(GASP) -M -o $*temp.vcl $<
+	$(VCL) $(VCLOPT) -o$*.vsm $*temp.vcl
+	rm $*temp.vcl
+
+# Generate dependencies for a C++ file.
+$(BUILD_DIR)/%.d: %.cpp
+	@echo Generating dependencies for $(notdir $<)
+	@echo $(@:%.d=%.o) $@ : \\ > $@_
+	@$(CXX) -MM $(CXXFLAGS) $< > $@
+#	@sed '/:/s/^/$(subst /,\/,$(BUILD_DIR))\//' $@_ > $@
+#	@-del $@_
+
+# Include dependency files.
+ifeq ($(USE_DEPENDENCIES),yes)
+-include $(BUILD_OBJS:%.o=%.d)
+endif
+
+endif
+
+#-----------------------------------------------------------------------------
+# Maintenance.
+#-----------------------------------------------------------------------------
+
+.PHONY: dirs
+dirs:
+	@-mkdir -p $(BUILD_DIR) > /dev/null
+	@-mkdir -p $(dir $(OUT)) > /dev/null
+
+.PHONY: clean
+clean:
+	-rm -f $(BUILD_DIR)/*.o
+	-rm -f $(BUILD_DIR)/*.d
+	-rm -f $(BUILD_DIR)/*.d_
+	-rm -f $(SRC_DIRS)/*.old
+	-rm -f $(INC_DIRS)/*.old
+	-rm -f $(BUILD_DIR)/*.lst
+	-rm -f $(SRC_DIRS)/*~
+	-rm -f $(INC_DIRS)/*~
+#	-rm -f $(OUTPUT_DIR)/*.irx
+	-rm -f $(OUT)
+
+#-----------------------------------------------------------------------------
+# The End.
+#-----------------------------------------------------------------------------

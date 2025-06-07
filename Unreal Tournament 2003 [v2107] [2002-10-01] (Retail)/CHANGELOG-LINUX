@@ -1,0 +1,158 @@
+This is the changelog for what Ryan's doing to keep Linux compatibility.
+ Questions and comments can be directed to him: icculus@clutteredmind.org.
+
+
+Up to 06/02/2002:
+- Added DO_* and DO_*_SLOW defines to build process (makefile-header)
+- Implemented iswspace() (UnUnix.cpp UnGnu.h)
+- Implemented _itow() (UnUnix.cpp UnGnu.h)
+- Patched UMaterial::SurfaceType declaration to compile (UnMaterial.h)
+- Removed KArt.o from the build (Engine/Src/makefile)
+- #ifdef'd out SSE macros (UnRenderUtil.cpp UnRenderVisibility.cpp)
+- Implemented _rotr() and _rotl() (UnGnu.h)
+- Moved #include <process.h> into WIN32 section (UCC.cpp)
+- Fixed FFileManagerLinux::IsReadOnly() (FFileManagerLinux.h)
+- Added xDecalMgr.cpp to build (Engine/Src/makefile)
+- Added xDataObject.cpp to build (Engine/Src/makefile)
+- Added xParticleMgr.cpp to build (Engine/Src/makefile)
+- Added AxEmitter.cpp to build (Engine/Src/makefile)
+- Added AxProcMesh.cpp to build (Engine/Src/makefile)
+- Added AxPickupBase.cpp to build (Engine/Src/makefile)
+- Added AxWeatherEffect.cpp to build (Engine/Src/makefile)
+- Added UnStatGraph.cpp to build (Engine/Src/makefile)
+- Added USpline.cpp to build (Engine/Src/makefile)
+- Added UnVolume.cpp to build (Engine/Src/makefile)
+- Added UnFluidSurface.cpp to build (Engine/Src/makefile)
+- Added UnRenderEditorActor.cpp to build (Engine/Src/makefile)
+- Added UnManifest.cpp to build (Engine/Src/makefile)
+- Added UnStaticMeshCollision.cpp to build (Engine/Src/makefile)
+- Added UnPackageCheckInfo.cpp to build (Engine/Src/makefile)
+- Added UnSkeletalTools.cpp to build (Engine/Src/makefile)
+- Added UnSecurity.cpp to build (Engine/Src/makefile)
+- Fixed a FString-passed-through-a-printf. (UnSecurity.cpp)
+- #ifdef'd out SSE macros (xParticleMgr.cpp)
+- Implemented appResetTimer() (UnGnu.h)
+- Added UnRenderLight.cpp to build (Engine/Src/makefile)
+- Added UnRenderBatch.cpp to build (Engine/Src/makefile)
+- Added UnStaticMeshBuild.cpp to build (Engine/Src/makefile)
+- Added UnRenderStaticMesh.cpp to build (Engine/Src/makefile)
+- Implemented FloatToInt in GNU inline ASM (UnRenderBatch.cpp UnRenderStaticMesh.cpp)
+- Added UnScriptedTexture.cpp to build (Engine/Src/makefile)
+- Added UnRenderPool.cpp to build (Engine/Src/makefile)
+- Added UnOctree.cpp to build (Engine/Src/makefile)
+- #included <limits.h> and <float.h> on GNUC as well as XBox (UnOctree.cpp)
+- Removed inline attribute from ColorSubtract() (UnTerrain.cpp UnRenderStaticMesh.cpp UnRenderLight.cpp)
+- Commented out an anonymous union/struct (UnRenderVisibility.cpp)
+
+Up to 06/07/2002:
+- Took out preprocessor-busting quotes in some #error lines (UnBuild.h)
+- #ifdef WITH_KARMA added to Karma-related parts (KTypes.h)
+- WITH_KARMA check in AActor::execKIsRagdollAvailable() (KPhysic.cpp)
+- WITH_KARMA check in AActor::execKMakeRagdollAvailable() (KPhysic.cpp)
+- Added AGameStats.cpp to build (Engine/Src/makefile)
+- Added AFileLog.cpp to build (Engine/Src/makefile)
+- Fixed a FString-passed-through-a-printf. (AFileLog.cpp)
+
+Up to 06/08/2002:
+- Added XGame and XInterface to build system (makefile makefile-header)
+- Added makefile for XGame (XGame/Src/makefile)
+- Added makefile for XInterface (XInterface/Src/makefile)
+- Fixed a FString-passed-through-a-printf. (AMenuInput.cpp)
+- Fixed some pointer-to-INT assignments. (AMenuInput.cpp)
+- Fixed some pointer-to-INT assignments. (AMenuBase.cpp)
+- Added an explicit type to DefaultRadius in AMenuBase::PlaySound() (AMenuTravel.cpp)
+- Added NullDrv.cpp to build (Engine/Src/makefile)
+- Added SDLDrv to build system (makefile makefile-header)
+- SDLDrv's build system now uses sdl-config script (SDLDrv/Src/makefile)
+- Made SDLDrv compile again. (Does it actually WORK though?!  :)  ) (SDLDrv/*)
+
+Up to 06/12/2002:
+- Removed UUpdateServerCommandlet.cpp from build (IpDrv/Src/makefile)
+- Added MasterServerClient.cpp to build (IpDrv/Src/makefile)
+- Added UCompressCommandlet.cpp to build (IpDrv/Src/makefile)
+- Added my name in the SDLDrv src headers. (SDLDrv/Src/*.cpp)
+- Added SDLLauch to the build system (makefile makefile-header)
+- SDLLaunch's build system now uses sdl-config script (SDLLaunch/Src/makefile)
+- Made SDLLaunch compile again. (Does it actually WORK though?!  :)  ) (SDLLaunch/*)
+
+Up to 06/15/2002:
+- Added UnCameraEffects.cpp to build (Engine/Src/makefile)
+
+Up to 06/18/2002:
+- Coerced byte packing of UEngine to match win32 build. (Engine/Inc/UnEngine.h)
+- Got ALAudio to build under Linux. (ALAudio/*)
+- Changed SDLLaunch to refer to itself as "UT2003" and not "UnrealTournament". (SDLLaunch.cpp)
+
+Up to 06/19/2002:
+- Updated XInterface makefile to build again (XInterface/Src/makefile)
+- Stubbed IFC-referencing forcefeedback code on non-win32 platforms (xForceFeedback.cpp)
+- Added xForceFeedback.cpp to build (Engine/Src/makefile)
+- Added UnCDKey.cpp to build (Engine/Src/makefile)
+- Removed some Linux cruft that seeped in from old UT code. (TcpNetDriver.cpp)
+- Added AMenuMultiPlayerServerBrowser.cpp to build (XInterface/Src/makefile)
+- Added MasterServerUplink.cpp to build (IpDrv/Src/makefile)
+- Added UnShadowProjector.cpp to build (Engine/Src/makefile)
+
+Up to 06/25/2002:
+- Make sure IpDrv builds before XInterface, since it now depends on it. (makefile)
+- Fixed stat() calls (FFileManagerLinux.h)
+
+Up to 06/30/2002:
+- Added some missing files to build (Engine/Src/makefile)
+- Added initial makefile to Editor tree (Editor/Src/makefile)
+- Patched basic editor sources to compile (Editor/*)
+- Added a stub for swscanf(). (UnGnu.h UnUnix.cpp)
+- Added a stub for appMsgf(). (UnUnix.cpp)
+- Minor patch for unresolved symbol in ALAudio (ALAudio/Src/makefile)
+
+Up to 07/02/2002:
+- Removed AStatLog.cpp from build (Engine/Src/makefile)
+- Added UnConvexVolume.cpp to build (Engine/Src/makefile)
+- more patches to Editor (UnEdSrv.cpp UnEdTran.cpp)
+- Added #include <float.h> to fix Intel C++ build (UnGnuG.h)
+
+Up to 07/03/2002:
+- Added a perl script to convert the Unreal source tree to Unix endlines (d2u.pl)
+- Added options for 2-byte Unicode support in Intel C++ (makefile-header)
+
+Up to 07/05/2002:
+- Added KScript.cpp to build (Engine/Src/makefile)
+
+Up to 07/09/2002:
+- Added stubs for _ui64tow() and _wcstoui64() (UnUnix.cpp UnGnuG.h)
+- ENGINE_SRC now part of include path for Engine builds, so EnginePrivate.h is visible (Engine/Src/makefile)
+- Patches to get IpDrv compiling again (InternetLink.cpp UnSocket.h)
+
+Up to 07/14/2002:
+- Patched to compile on Intel C++ compiler (UnOctree.cpp UnProjector.cpp)
+- Removed ALAudio from build for now (makefile)
+- Fixed SDLDrv makefile to work with Intel C++ compiler (SDLDrv/Src/makefile)
+- Patched UCC.cpp to compile again. (UCC.cpp)
+- Fixed a few makefiles to clean correctly (UWeb/Src/makefile Fire/Src/makefile IpDrv/Src/makefile SDLDrv/Src/makefile SDLLaunch/Src/makefile)
+- Put some non-Unicode stubs in. (UnAnsi.cpp)
+- Removed inline attributes on AActor::IsJoinedTo() and AActor::IsBlockedBy() (UnActor.cpp)
+
+Up to 07/17/2002:
+- Rebuilt Editor makefile (Editor/Src/makefile)
+
+Up to 07/25/2002:
+- Patched SDLDrv to compile (SDLViewport.cpp)
+- Added OpenGLDrv to build system (OpenGLDrv/Src/makefile)
+
+Up to 07/26/2002:
+- Started patching OpenGLDrv to compile...imcomplete! (OpenGLDrv/*)
+
+Up to 07/28/2002:
+- Disabled OpenGLDrv in build; will work with @ Epic this week (makefile)
+- Enabled Karma support and patched some Karma-related code to compile (AActor.h Engine.h KDebugDraw.h KPhysic.cpp makefile-header)
+
+Up to 07/31/2002:
+- Changed definition of WSAEWOULDBLOCK on Linux to EAGAIN, fixing DoS attack? (UnSocket.h)
+- Patched to compile without Karma support, again. (KConstraint.cpp UnRenderEditorActor.cpp)
+- Added UnGUI.cpp to build. (XInterface/Src/makefile)
+- Patched to compile on Intel C++, again.
+- Reenabled OpenGLDrv, got it building again. (makefile OpenGLDrv/*)
+- Flyby now runs on Linux! Main menu comes up too, but input is disabled.
+
+# end of CHANGELOG ...
+

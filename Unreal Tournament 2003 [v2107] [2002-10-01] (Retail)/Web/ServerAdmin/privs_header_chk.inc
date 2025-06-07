@@ -1,0 +1,1 @@
+<table width="100%" bgcolor=#58677C><tr><td><input type=checkbox name="<%Tag%>" Value="1"<%Checked%>><span class=location><%Text%></span></td></tr></table>

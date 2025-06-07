@@ -1,0 +1,34 @@
+[LevelInfo0]
+Title="Cañón de Adara"
+
+[LevelSummary]
+Title="Cañón de Adara"
+Description="Los temblores sísmicos y millones de años de erosión han conformado este terreno de batalla. El cañón Adara es un escenario natural de una belleza incomparable. Pero no te dejes engañar por esa belleza. Las largas caídas son mortales, y la forma de corredor del cañón hace que evitar el fuego de LiCAV sea difícil."
+
+[Volume0]
+LocationName="Cascadas del este"
+
+[Volume1]
+LocationName="Cascadas del oeste"
+
+[Volume2]
+LocationName="Base del este"
+
+[Volume3]
+LocationName="Base del oeste"
+
+[Volume4]
+LocationName="Pasaje de puente norte"
+
+[Volume5]
+LocationName="Pasaje de puente sur"
+
+[Volume6]
+LocationName="Puente"
+
+[Volume7]
+LocationName="Isla central"
+
+[ZoneInfo0]
+LocationName="Cañón"
+

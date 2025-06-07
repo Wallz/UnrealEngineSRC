@@ -1,0 +1,1 @@
+..\System\ut2003.exe dm-asbestos?game=engine.gameinfo exec=..\Benchmark\Stuff\flybyexec.txt -benchmark -seconds=71 -nosound %1
